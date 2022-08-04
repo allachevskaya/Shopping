@@ -1,6 +1,7 @@
 import React from 'react'
+import {ArtHeader, ArtBox} from '../compotents'
 
-function MainPage() {
+function MainPage({items}) {
   return (
 
   <div className="wrapper">
@@ -13,21 +14,11 @@ function MainPage() {
       </header>
       <div className="header-content">
         <div className="content-boxes">
-          <div className="box _content">"" src="Пикассо_мальчикТрубка.jpg</div>
-          <div className="box _content">"" src="21.jpg</div>
-
-          <div className="box _content">"" src="Пикассо_Девушка.jpg</div>
-
-          <div className="box _content">"" src="Пикассо_двеСестры.jpg</div>
-          <div className="box _content">"" src="Климт.jpg</div>
-          <div className="box _content">"" src="ДевушкаЖемчуг.jpg</div>
-          <div className="box _content">"" src="Босх.jpg</div>
-          <div className="box _content">"" src="Демо1.jpg</div>
-
-          <div className="box _content">"" src="БосхСуд.jpg</div>
-          <div className="box _content">"" src="Константинов.jpg</div>
-          <div className="box _content">"" src="Пикассо_зеленыеНогти.jpg</div>
-          <div className="box-empy">"" src="Демо1.jpg</div>
+          
+          {
+            items.map((obj)=>
+              <ArtHeader key={obj.id} obj={obj} />)
+          }
         </div>
       </div>
     </div>
@@ -37,63 +28,15 @@ function MainPage() {
 
         <h3 className="content-title -StoreTitle ">
 					Beautiful, minimalistic things for an aesthetic life, created for joy.
-				    </h3>
+				</h3>
+            
 
         <div className="store-content-items ">
-          <div className="item">
-            <div className="box _store ">
-              "" src="Лдште.jpg"
-            </div>
-            <div className="item-title">
-              <h4 className="art-name ">name Art</h4>
-              <p className="art-author ">art-author</p>
-              <p className="art-year">art-year</p>
-            </div>
-            <div className="store-btn ">
-              buy
-              <span className="active">i</span>
-            </div>
-          </div>
-          <div className="item">
-            <div className="box _store">
-              "" src="500x500.jpg"
-            </div>
-            <div className="item-title">
-              <h4 className="art-name">name Art</h4>
-              <p className="art-author">art-author</p>
-              <p className="art-year">art-year</p>
-            </div>
-            <div className="store-btn">
-              buy
-            </div>
-          </div>
-          <div className="item">
-            <div className="box _store">
-              "" src="21.jpg"
-            </div>
-            <div className="item-title">
-              <h4 className="art-name">name Art</h4>
-              <p className="art-author">art-author</p>
-              <p className="art-year">art-year</p>
-            </div>
-            <div className="store-btn">
-              buy
-            </div>
-          </div>
-          <div className="item">
-            <div className="box _store">
-              "" src="395353-demo.jpg"
-            </div>
-            <div className="item-title">
-              <h4 className="art-name">name Art</h4>
-              <p className="art-author">art-author</p>
-              <p className="art-year">art-year</p>
-            </div>
-            <div className="store-btn">
-              buy
-            </div>
-          </div>
-          
+          {
+            items.map((obj)=>
+              <ArtBox key={obj.id} obj={obj} />)
+          }
+
 
         </div>
 

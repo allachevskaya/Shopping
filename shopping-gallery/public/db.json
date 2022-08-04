@@ -1,0 +1,154 @@
+{
+  "arts": [
+    {
+      "id": 0,
+      "imageUrl": "http://picassolive.ru/wp-content/uploads/2016/04/Pablo-Picasso-La-buveuse-d-absinthe-1901.jpg",
+      "name": "La buveuse d'absinthe",
+      "types": [0, 1],
+      "sizes": ["73 x 54","103 x 84","123 x 94" ],
+      "price": 803,
+      "category": 0,
+      "rating": 4,
+      "year": 1901,
+      "author": "Пикассо"
+    },
+    {
+      "id": 1,
+      "imageUrl": "http://picassolive.ru/wp-content/uploads/2014/04/Pablo-Picasso_Les-deux-soeurs_1902.jpg",
+      "name": "L'entrevue (Les deux soeurs)",
+      "types": [0],
+      "sizes": ["73 x 54","123 x 94" ],
+      "price": 295,
+      "category": 1,
+      "rating": 4,
+      "year": 1902,
+      "author": "Пикассо"   
+      
+    },
+    {
+      "id": 2,
+      "imageUrl": "http://picassolive.ru/wp-content/uploads/2012/05/Pablo-Picasso_Arlequin-et-son-compagnon_19012.jpg",
+      "name": "Arlequin et son compagnon",
+      "types": [0],
+      "sizes": ["73 x 54","103 x 84","123 x 94" ],
+      "price": 245,
+      "category": 1,
+      "rating": 6,
+      "year": 1901,
+      "author": "Пикассо" 
+
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://arthive.net/res/media/img/oy1000/work/434/299097.webp",
+      "name": "Автопортрет",
+      "types": [0, 1],
+      "sizes": ["73 x 54","103 x 84","123 x 94" ],
+      "price": 675,
+      "category": 1,
+      "rating": 9,
+      "year": 1937,
+      "author": " Рене Магритт" 
+    },
+    {
+      "id": 4,
+      "imageUrl": "http://picassolive.ru/wp-content/uploads/2011/12/Pablo-Picasso_A-boy-with-pipe_1905.jpg",
+      "name": "Garçon à la pipe",
+      "types": [0, 1],
+      "sizes": ["103 x 84","123 x 94" ],
+      "price": 415,
+      "category": 3,
+      "rating": 8,
+      "year": 1905,
+      "author": "Пикассо" 
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://arthive.net/res/media/img/oy1000/work/cb6/635465.webp",
+      "name": "Принцип удовольствия",
+      "types": [0],
+      "sizes": ["73 x 54","123 x 94" ],
+      "price": 580,
+      "category": 2,
+      "rating": 2,
+      "year": 1937,
+      "author": " Рене Магритт" 
+    },
+    {
+      "id": 6,
+      "imageUrl": "http://picassolive.ru/wp-content/uploads/2014/03/Pablo-Picasso_Arlequin_assis_1905.jpg",
+      "name": "Arlequin assis",
+      "types": [1],
+      "sizes": ["73 x 54","103 x 84"],
+      "price": 275,
+      "category": 2,
+      "rating": 2,
+      "year": 1905,
+      "author": "Пикассо" 
+     
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://arthive.net/res/media/img/oy1000/work/c87/335213.webp",
+      "name": "Автовоспроизведение запрещено",
+      "types": [0, 1],
+      "sizes": ["73 x 54","103 x 84","123 x 94" ],
+      "price": 285,
+      "category": 5,
+      "rating": 7,
+      "year": 1939,
+      "author": " Рене Магритт"
+      
+
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://arthive.net/res/media/img/oy1000/work/155/53020.webp",
+      "name": "Посвящение Маку Сеннету",
+      "types": [0, 1],
+      "sizes": ["73 x 54","103 x 84","123 x 94" ],
+      "price": 395,
+      "category": 5,
+      "rating": 10,
+      "year": 1934,
+      "author": " Рене Магритт"
+    },
+    {
+      "id": 9,
+      "imageUrl":"https://arthive.net/res/media/img/oy1000/work/917/538601.webp",
+      "name": "Градива",
+      "types": [0, 1],
+      "sizes": ["73 x 54","103 x 84","123 x 94" ],
+      "price": 450,
+      "category": 4,
+      "rating": 10,
+      "year": 1948,
+      "author": "Сальвадор Дали" 
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://arthive.net/res/media/img/oy1000/work/3d4/460369.webp",
+      "name": "Руки молящегося",
+      "types": [0, 1],
+      "sizes": ["73 x 54","103 x 84","123 x 94" ],
+      "price": 285,
+      "category": 5,
+      "rating": 7,
+      "year": 1939,
+      "author": "Альберхт Дюрер"
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://arthive.net/res/media/img/oy1800/work/9a8/563759@2x.jpg",
+      "name": "Моряк",
+      "types": [0, 1],
+      "sizes": ["73 x 54","103 x 84","123 x 94" ],
+      "price": 285,
+      "category": 5,
+      "rating": 7,
+      "year": 1943,
+      "author": "Пикассо"
+    }
+    
+  ]
+}

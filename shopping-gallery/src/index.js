@@ -4,7 +4,8 @@ import {BrowserRouter} from 'react-router-dom';
 
 import App from "./App";
 
-import './index.css';
+import './index.css';  // переименовать файл
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
