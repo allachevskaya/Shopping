@@ -1,6 +1,8 @@
 import React from 'react'
 import {ArtHeader, ArtBox} from '../compotents'
 
+import Img from "/home/al/VS/1/Shopping/shopping-gallery/src/img/Maslo-demo1.jpg"
+
 function MainPage({items}) {
   return (
 
@@ -19,6 +21,7 @@ function MainPage({items}) {
             items.map((obj)=>
               <ArtHeader key={obj.id} obj={obj} />)
           }
+          <div className="box-empy"><img src={Img} alt="art"/></div>
         </div>
       </div>
     </div>
